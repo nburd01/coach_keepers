@@ -1,0 +1,50 @@
+@mixin btn($primary: $primary) {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: $base-padding $base-padding * 2;
+  border-radius: $small-border-radius;
+  width: fit-content;
+  transition: all 400ms;
+  font-weight: 500;
+  background-color: $primary;
+  p{
+    color : $secondary;
+  }
+}
+
+.btn {
+  @include btn;
+}
+
+// .primary-btn {
+//   @include box-shadow;
+//   background: linear-gradient(180deg, $lightgreen 50%, $green 100%);
+//   transition-property: background-color, box-shadow;
+//   transition: all 400ms;
+//   &:hover {
+//     background: linear-gradient(
+//       180deg,
+//       lighten(5%),
+//       lighten(5%)
+//     );
+//     box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.31);
+//   }
+// }
+
+@each $key, $val in $colors {
+  .btn-#{$key} {
+    @include btn($val);
+    &:hover {
+      background-color: darken($color: $val, $amount: 5);
+    }
+  }
+  .btn-outlined-#{$key} {
+    @include btn(#fff);
+    border: $base-border-thickness solid $val;
+    &:hover {
+      background-color: lighten($color: $val, $amount: 0);
+    }
+  }
+}

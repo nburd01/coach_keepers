@@ -1,0 +1,66 @@
+//theme colors
+$primary: #f3f3f3;
+$secondary: #004687;
+$bluelighter: #020024;
+$bluelighter2: #090979;
+$bluelighter3: #00D4FF;
+$bluelighter4: #b8c1ec;
+$bluelighter5: #232946;
+$third: #d6a319;
+$fourth: #e4f0ff;
+$fifth: #003a68;
+$green: #99e2d0;
+$greenfont: #d1eeeb;
+$lightgreen: #d1eeeb;
+$purple: #9356dc;
+$info: blue;
+$error: red;
+$pink: #ff79da;
+$black: #353535;
+$grey: #f6f6f6;
+$white: #fffffe;
+$icon: #7e7e7e;
+
+//color palette
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "third": $third,
+  "fourth": $fourth,
+  "fifth": $fifth,
+  "purple": $purple,
+  "pink": $pink,
+  "bluelighter": $bluelighter,
+  "bluelighter2": $bluelighter2,
+  "bluelighter3": $bluelighter3,
+  "bluelighter4": $bluelighter4,
+  "bluelighter5": $bluelighter5,
+  "info": $info,
+  "error": $error,
+  "black": $black,
+  "white": $white,
+  "grey": $grey,
+  "green": $green,
+  "icon": $icon,
+  "greenfont": $greenfont,
+  "lightgreen": $lightgreen,
+);
+
+//SPACING
+$base-padding: 0.75em;
+$base-margin: 0.75em;
+//BORDERS
+$base-border-thickness: 0.3em;
+$base-border-radius: 3px;
+$small-border-radius: 10px;
+$big-border-radius: 40px;
+//BOX-SHADOW
+@mixin box-shadow {
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.31);
+}
+//FONT-SIZES
+$base-font-size: 16px;
+$font-size-sm: $base-font-size * 0.75;
+$font-size-lg: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
