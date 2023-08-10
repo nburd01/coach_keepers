@@ -1,0 +1,126 @@
+@mixin container{
+    @include box-shadow;
+    display: flex;
+    flex-direction: column;
+    margin: 3em auto;
+    padding: 1em;
+    background: $white;
+    box-sizing: border-box;
+    border-radius: $base-border-radius;
+    h2 {
+      color: $white;
+    }
+  }
+@mixin naked-container{
+    @include container;
+    background: none;
+    background-color: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 1em auto;
+    h2 {
+      color: $white;
+    }
+    .btn{
+        padding: 0 auto;
+        margin: 0;
+    }
+  }
+  
+  .container {
+    @include container;
+  }
+  .naked-container {
+    @include container;
+  }
+
+  
+  
+  .--purple{
+    background-color: $bluelighter4;
+  }
+  .--darkblue{
+    background-color: $bluelighter5;
+  }
+  
+  section {
+    width: 100%;
+    background-color: $primary;
+    margin: 0;
+    padding: 1em;
+  }
+  
+  section {
+    &.--darkblue {
+      h1 {
+        color: $bluelighter4;
+      }
+      .container > .btn{
+        background-color: $bluelighter4;
+        background:$bluelighter4;
+        &:hover {
+          background-color: darken($color: $bluelighter4, $amount: 5);
+        }
+      }
+    }
+    
+    &.--purple {
+      h1 {
+        color: $bluelighter5;
+      }
+      .container > .btn{
+        background-color: $bluelighter5;
+        background:$bluelighter5;
+        color: $white;
+        &:hover {
+          background-color: lighten($color: $bluelighter5, $amount: 8);
+        }
+      }
+    }
+  }
+  
+  
+  .container {
+    @include container;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .container-sm {
+    @include container;
+    width: 80%;
+    max-width: 900px;
+  }
+  
+  .container-lg {
+    @include container;
+    width: 150%;
+    max-width: 1400px;
+    margin: inherit 0;
+    padding: inherit 0;
+  }
+  .title-container {
+    @include naked-container;
+    h1{
+      font-family:'Shrikhand', Courier, monospace;
+    }
+  }
+  .but-container {
+    @include naked-container;
+    align-items: end;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1200px;
+      &__title {
+        color: $black;
+      }
+    }
+    .container-small {
+      max-width: 800px;
+      &__title {
+        color: $black;
+      }
+    }
+}
