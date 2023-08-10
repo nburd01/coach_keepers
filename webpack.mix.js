@@ -8,8 +8,8 @@ mix.sass("resources/sass/app.scss", `css`);
 
 // Development configuration
 if (!mix.inProduction()) {
-  mix.sourceMaps();
-  mix.webpackConfig({ devtool: "inline-source-map" });
+	mix.sourceMaps();
+	mix.webpackConfig({ devtool: "inline-source-map" });
 }
 
 // Path resolve
