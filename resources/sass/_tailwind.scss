@@ -1,0 +1,11 @@
+
+@mixin container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3em auto;
+    padding: 1em;
+}
+.container {
+    @include container;
+  }

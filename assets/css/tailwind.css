@@ -1,7 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 3em auto;
   padding: 1em;
-}/*# sourceMappingURL=app.css.map */
+} /*# sourceMappingURL=tailwind.css.map */
