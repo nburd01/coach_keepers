@@ -65,6 +65,8 @@
       background-color: $green;
       max-width: inherit;
     }
+$bg-image-url: url("http://localhost/wordpress/wp-content/themes/niall/resources/images/backrgound1.png");
+
     &__img {
       display: block;
       width: 100%;
@@ -74,6 +76,8 @@
       object-fit: cover;
       position: relative;
       border-radius: 20px 20px 0 0;
+      background-image: $bg-image-url;
+
 
       img {
         margin: 0;

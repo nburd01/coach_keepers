@@ -81,13 +81,17 @@ get_header();
             </div>
             <div class="cards__card">
                 <div class="cards__card__img"> <img
-                    src="resources/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg"
+                    src="resources/images/desktop_homepage.png"
                     alt="La palette des goûts"
                   ></div>
                 <div class="cards__card__title">Title</div>
-                <div class="cards__card__subtitle">Subtitle</div>
+                <div class="cards__card__subtitle">Subtzefitle</div>
             </div>
         </div>
+        
+        <img src="<?php echo get_template_directory_uri(); ?>/resources/images/backrgound1.png" alt="Desktop Homepage">
+
+
     </div>
 </section>
 <?php
