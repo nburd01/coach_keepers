@@ -329,6 +329,9 @@ figure,
 p,
 pre {
   margin: 0;
+}
+
+.icon {
   padding-left: 2em;
 }
 
