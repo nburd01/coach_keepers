@@ -8,4 +8,13 @@
 }
 .container {
     @include container;
-  }
+}
+
+.container-lg {
+    @include container;
+    width: 150%;
+    max-width: 1400px;
+    margin: inherit 0;
+    padding: inherit 0;
+}
+
