@@ -4,7 +4,7 @@ const mix = require("laravel-mix");
 // mix.js(`resources/js/____.js`, `js`);
 
 // SCSS
-mix.sass("resources/sass/app.scss", `css`);
+mix.sass("resources/sass/app.scss", `dist/output`);
 
 // Development configuration
 if (!mix.inProduction()) {
@@ -14,7 +14,7 @@ if (!mix.inProduction()) {
 
 // Path resolve
 mix.setResourceRoot("..");
-mix.setPublicPath("assets");
+mix.setPublicPath("dist");
 
 // Disable notifications
 mix.disableNotifications();

@@ -4,4 +4,42 @@
   justify-content: center;
   margin: 3em auto;
   padding: 1em;
+}
+.container_carousel {
+  height: 100vh;
+}
+
+.carousel {
+  height: 75vh;
+}
+
+.container-lg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3em auto;
+  padding: 1em;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#wpcf7-f68-o1 {
+  background-color: purple;
+}
+
+.wpcf7-form .init {
+  background-color: green;
+}
+
+.wpcf7 input[type=text],
+.wpcf7 input[type=email],
+.wpcf7 input[type=tel],
+textarea {
+  font-size: 10px;
+  border: none;
+}
+
+.wpcf7 .label {
+  font-size: 100px;
 }/*# sourceMappingURL=app.css.map */
