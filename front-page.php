@@ -8,6 +8,6 @@
 <?php get_template_part('template-parts/carousel'); ?>
 <?php get_template_part('template-parts/about'); ?>
 <?php get_template_part('template-parts/contact'); ?>
-<?php get_template_part('template-parts/foot'); ?>
+<?php get_template_part('template-parts/footer'); ?>
 
 <?php get_footer() ?>

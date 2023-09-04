@@ -42,4 +42,8 @@ textarea {
 
 .wpcf7 .label {
   font-size: 100px;
+}
+
+section.footer-wrap:after {
+  width: 100%;
 }/*# sourceMappingURL=app.css.map */

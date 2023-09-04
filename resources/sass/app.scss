@@ -2,6 +2,9 @@
 @import "_variables";
 @import "_tailwind";
 @import "_carousel";
+section.footer-wrap:after {
+    width: 100%;
+}
 
 // .container-test{
 //     background-color: aquamarine;
