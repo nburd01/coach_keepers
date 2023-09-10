@@ -76,9 +76,9 @@
       <div class="flex gap-x-4 sm:col-span-2">
         <div class="flex h-6 items-center">
           <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -->
-          <div class="flex items-center">
+          <!-- <div class="flex items-center">
             <input checked id="checked-checkbox" type="checkbox" value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-        </div>
+        </div> -->
           <button type="button" class="bg-gray-200 flex w-8 flex-none cursor-pointer rounded-full p-px ring-1 ring-inset ring-gray-900/5 transition-colors duration-200 ease-in-out focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600" role="switch" aria-checked="false" aria-labelledby="switch-1-label">
             <span class="sr-only">Agree to policies</span>
             <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -->
