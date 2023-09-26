@@ -1,37 +1,38 @@
-<div class="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
-<img src="<?php echo get_template_directory_uri(); ?>/resources/images/jerome/DSC_8796.png" alt="Desktop Homepage" alt="" class="absolute  bg-blue-900  inset-0 -z-10 h-full w-full object-cover object-top opacity-30 md:object-top">
-
-  <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl" aria-hidden="true">
-    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-  </div>
-  <div class="absolute -top-52 left-1/2 -z-10 -translate-x-1/2 transform-gpu blur-3xl sm:top-[-28rem] sm:ml-16 sm:translate-x-0 sm:transform-gpu" aria-hidden="true">
-    <div class="aspect-[1097/845] w-[68.5625rem] bg-gradient-to-tr from-[#ff4694] to-[#776fff] opacity-20" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
-  </div>
+<div class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
-    <div class="mx-auto max-w-2xl lg:mx-0">
-      <h2 class="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Travaillons ensemble</h2>
-      <p class="mt-6 text-lg leading-8 text-gray-300">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+    <div class="mx-auto max-w-2xl lg:text-center">
+      <h2 class="text-base font-semibold leading-7 hover:scale-125 text-indigo-600">Partage  Humilité  Passion  Professionnel</h2>
+      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">À propos</p>
+      <p class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
     </div>
-    <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
-      <dl class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gray-300">Gardiens professionnels formés</dt>
-          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">10</dd>
-        </div>
-        <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gray-300">Matchs professionnels</dt>
-          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">300+</dd>
-        </div>
-        <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gray-300">Années d'expérience</dt>
-          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">15</dd>
-        </div>
-        <div class="flex flex-col-reverse">
-          <dt class="text-base leading-7 text-gray-300">lorem ipsum</dt>
-          <dd class="text-2xl font-bold leading-9 tracking-tight text-white">123</dd>
-        </div>
-      </dl>
+    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+        <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16 h-3/6">  
+            <div class="relative">
+            <div class="relative group">
+              <a href="<?php echo esc_url( home_url( '/histoire' ) ); ?>" class="rounded-mdtext-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-900 xl:aspect-h-30 xl:aspect-w-7 py-16 xl:py-64">
+                        <img src="<?php echo get_template_directory_uri(); ?>/resources/images/jerome/DSC_8796.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center bg-blue-900  opacity-30  group-hover:scale-110 group-hover:opacity-50 group-hover:bg-blue-900 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                        <div class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-opacity-50 transition duration-300 opacity-100">
+                        mon histoire
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- </div> -->
+            
+            </div>
+            <div class="relative">
+            <div class="relative group">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-900 xl:aspect-h-30 xl:aspect-w-7 py-16 xl:py-64">
+                        <img src="<?php echo get_template_directory_uri(); ?>/resources/images/jerome/DSC_8796.png" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center bg-blue-900  opacity-30  group-hover:scale-110 group-hover:opacity-75 group-hover:bg-blue-900 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
+                        <div class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-opacity-50 transition duration-300 opacity-100">
+                        mes objectifs
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </dl>
+
     </div>
   </div>
 </div>
-

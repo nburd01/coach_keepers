@@ -23,7 +23,8 @@
             <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl">Développez votre pôle gardien de but</h1>
             <p class="mt-6 text-lg leading-8 text-white">Nous proposons des services d’audit, sur mesure pour les structures souhaitant gagner en expertise et créer de la valeur dans le domaine des gardiens de but.</p>
             <div class="mt-10 flex items-center justify-center gap-x-6">
-              <a href="<?php echo esc_url( home_url( '/contact' ) ); ?>" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Nous contacter</a>
+            
+              <a href="#contact_us" class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Nous contacter</a>
               <!-- <a href="#" class="text-sm font-semibold leading-6 text-white">En savoir +<span aria-hidden="true">→</span></a> -->
             </div>
           </div>
