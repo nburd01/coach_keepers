@@ -1,3 +1,5 @@
+$bg-image-url: url("/resources/images/backrgound1.png");
+
 @mixin container{
     @include box-shadow;
     display: flex;
@@ -94,8 +96,7 @@
   
   .container-lg {
     @include container;
-    width: 150%;
-    max-width: 1400px;
+    width: 100%;
     margin: inherit 0;
     padding: inherit 0;
   }

@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import "_variables";
+@import "_colours";
+//base & layout
+@import "_base";
+@import "_container";
+@import "_grid";
+//colours
+@import "_fonts";
+
+@import "_cards";
+@import "_button";
+@import "_spinner";
+
+$bg-image-url: url('resources/images/jonas-tebbe-Lv9TwzKQNq0-unsplash.jpg');
+
+
+body {
+  // background: $fourth;
+  background-image: $bg-image-url;
+}
