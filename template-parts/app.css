@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3em auto;
+  padding: 1em;
+}
+.container_carousel {
+  height: 100vh;
+}
+
+.carousel {
+  height: 75vh;
+}
+
+.container-lg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3em auto;
+  padding: 1em;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+section.footer-wrap:after {
+  width: 100%;
+}/*# sourceMappingURL=app.css.map */

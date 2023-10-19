@@ -8,7 +8,9 @@
     <p class="mt-2 text-lg leading-8 text-gray-600">Aute magna irure deserunt veniam aliqua magna enim voluptate.</p>
   </div>
   <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
+    <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
     <?php echo do_shortcode('[contact-form-7 id="98dc640" title="Formulaire de contact 1"]'); ?>
+    </div>
   </form>
 </div>
 

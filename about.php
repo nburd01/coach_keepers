@@ -27,7 +27,7 @@
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-900 xl:aspect-h-30 xl:aspect-w-7 py-16 xl:py-64">
                     <img src="<?php echo get_template_directory_uri(); ?>/resources/images/jeromerandom/DSC_9203.jpg" alt="Tall slender porcelain bottle with natural clay textured body and cork stopper." class="h-full w-full object-cover object-center bg-blue-900  opacity-30  group-hover:scale-110 group-hover:opacity-75 group-hover:bg-blue-900 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
                     <div class="absolute inset-0 flex items-center justify-center text-white text-2xl font-semibold bg-opacity-50 transition duration-300 opacity-100">
-                    mes objectifs
+                    mes objectifszfez
                     </div>
                 </div>
               </a>

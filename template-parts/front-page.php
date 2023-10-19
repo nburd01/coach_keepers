@@ -5,7 +5,7 @@
 <?php get_template_part('template-parts/nav'); ?>
 <?php get_template_part('template-parts/hero'); ?>
 <?php get_template_part('template-parts/about'); ?>
-<?php get_template_part('template-parts/carousel'); ?>
+
 <?php get_template_part('template-parts/methodology'); ?>
 <?php get_template_part('template-parts/worktogether'); ?>
 <?php get_template_part('template-parts/contact'); ?>
