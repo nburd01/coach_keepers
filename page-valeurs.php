@@ -5,7 +5,7 @@
 <section class="h-screen bg-white dark:bg-gray-900 ">
     <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <div class="mx-auto max-w-2xl lg:text-center">
-        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Objectifs</h2>
+        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Valeurs</h2>
       <h2 class="text-base font-semibold leading-7 hover:scale-125 text-indigo-600">Partage  Humilité  Passion  Professionnel</h2>
       <p class="mt-6 text-lg leading-8 text-gray-600">Quis tellus eget adipiscing convallis sit sit eget aliquet quis. Suspendisse eget egestas a elementum pulvinar et feugiat blandit at. In mi viverra elit nunc.</p>
     </div>
